@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff0f5">
+    <title>ЯСМИНА</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-hearts" id="hearts"></div>
+    <script src="app.js"></script>
+
+    <header>
+        <div class="logo">🤍</div>
+        <span class="header-text">Сделано с теплом</span>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="flower"><img src="IMG/1.jpeg" alt="💐"></div>
+
+            <p class="small-title">Одна маленькая страница</p>
+
+            <h1>Для самой<br><span>Ясмины</span></h1>
+            <p class="hero-description">Иногда просто хочется напомнить человеку на сколько он важен</p>
+            <button class="main-button" id="startButton">Начать маленькое путишествие</button>
+            <div class="scroll-hint">Листай вниз</div>
+        </section>
+
+        <section class="reasons">
+            <p class="section-lable">НЕМНОГО ТЕПЛА</p>
+            <h2>Знаешь, что прекрасно?</h2>
+            <div class="reason-grid">
+                <div class="reason-card">
+                    <div class="card-icon">☀</div>
+                    <h3>Твоя улыбка</h3>
+                    <p>Она способна сделать даже обычный день особенным</p>
+                </div>
+
+                <div class="reason-card">
+                    <div class="card-icon">🦋</div>
+                    <h3>Ты сама</h3>
+                    <p>И этого уже достаточно, чтобы быть особенной</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="letter-section">
+            <p class="section-lable">НЕЧТО ОСОБЕННОЕ</p>
+            <h2>У меня есть кое-что особенное для тебя</h2>
+            <div class="envelope" id="envelope">
+                <div class="envelope-icon">✉</div>
+                <p>Маленькое письмо</p>
+                <button class="soft-button" id="openLetter">Открыть письмо</button>
+            </div>
+        </section>
+
+        <section class="surprise-section">
+            <div class="gift">🎁</div>
+            <p class="section-lable">А ВОТ И СЮРПРИЗ</p>
+            <h2>Хочешь кое-что узнать?</h2>
+            <p>Тогда нажми на кнопку</p>
+
+            <button class="main-button" id="surpriseButton">Открыть</button>
+            <div class="surprise-message" id="surpriseMessage">Ты заслуживаешь много счастливых моментов<br>Пусть каждый твой день будет наполнен улыбками, добром и приятными неожиданностями🤍</div>
+        </section>
+
+        <section class="interactive-section">
+            <p class="section-lable">ЕЩЁ ОДНА МАЛЕНЬКАЯ ВЕЩЬ</p>
+            <h2>Тебе нужно услышать это</h2>
+            <div class="compliment-box">
+                <div class="sparkle">✨</div>
+                <p id="compliment">Ты намного прекраснее чем думаешь</p>
+                <button class="soft-button" id="complimentButton">Еще одно</button>
+            </div>
+        </section>
+
+        <section class="final-section">
+            <div class="final-flower"><img src="IMG/2.jpeg" alt="🌹"></div>
+            <h2>И на последок...</h2>
+            <p>Не забывай улыбаться, верить в себя и находить счастье даже в маленьких вещях</p>
+            <h3>Ты особенная🤍</h3>
+
+            <button class="heart-button" id="heartButton">❤</button>
+            <p class="final-caption">Нажми на сердечко🙃</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Сделано специально для тебя🤍</p>
+        <span>little things matter</span>
+    </footer>
+
+    <div class="modal" id="letterModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeLetter">x</button>
+            <div class="modal-flower">🤍</div>
+            <h2>Не большое письмо</h2>
+
+            <p>
+                Привет
+                <br><br>
+                Я хотел сделать для тебя чтото необычное
+                Не просто сообщение и картинку
+                А маленький уголок интернета который подарит тебе улыбку
+                <br><br>
+                Надеюсь эта страничка сделает твой день хотябы чуть чуть приятнее
+                <br><br>
+                Берени свою улыбку
+            </p>
+            <span class="letter-signature">С теплом🤍</span>
+        </div>
+    </div>
+</body>
+</html>
